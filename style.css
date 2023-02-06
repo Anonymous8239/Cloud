@@ -1,0 +1,216 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  Background-color: black;
+  color:white;
+  font-family: 'Main';
+}
+:root{
+/* CHRISTMAS THEMES : */
+--red-peppermint : #DF3F48;
+--green-pepermint : #b8f1de;
+  /*h4 : */
+  /*Main color*/ --h4-main-red : #c54245;
+  /*Shadow color*/ --h4-shadow-green : #43a047;
+  /* Christmas fonts : */
+  /*products = 'chopin-script'*/
+  /* title, h4, placeholder = 'Mountains of christmas'*/
+  /* recent = 'Sofia'*/
+/* END CHRISTMAS THEMES*/
+/* NEW YEARS THEMES : */ 
+  --gold-new-years : #FFDF00;
+  --blue-new-years : #062844;
+  --pink-new-years : #FF1493;
+  /* h4 : */
+  /*Main color*/ --h4-main-blonde : #faf0be;
+  /*shadow color*/ --h4-shadow-blue : #003153;
+  /* New years fonts : */
+  /*products = 'Sofia'*/
+  /*title, h4, placeholder = 'Chopin script'*/
+  /*recent = 'Yesteryear'*/
+  /*END NEW YEARS THEMES*/
+  /*products color scheme =  	background: linear-gradient(90.02deg, #ef3550 0.02%,#f48fb1 27.09%,  #7e57c2 51.04%, #2196f3 76.56%, #26c6da 87.99%  );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent; */
+}
+h1, h2, h3, h4, h5, h6, p:hover{
+  cursor: default;
+}
+@font-face{
+    font-family: "main";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+  font-family: 'apple';
+    src: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.body{
+  background: black;
+}
+ .specialeffects{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+   font-weight:1000;
+  font-size: 3rem;
+   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.15rem;
+   word-spacing: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+.specialeffects:hover{
+  cursor:default;
+}
+ .naver{
+	position: sticky;
+	top: 0;
+  background-color:pink;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav, h4 {
+color: black;
+	font-size: 25px;
+	font-weight: 900;
+  font-family: 'Main' ;
+}
+.nav a{
+  text-decoration:none;
+  color:black;
+  font-family:cursive;
+}
+.naver .nav img{
+  height: 60px;
+  float:left;
+  transition: 0.5s;
+}
+.naver .nav img:active{
+  transform: scale(90%);
+}
+input::placeholder{
+   	background: linear-gradient(90.02deg, #ef3550 0.02%,#f48fb1 27.09%,  #7e57c2 51.04%, #2196f3 76.56%, #26c6da 87.99%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  font-family: 'Main';
+}
+
+.nav .clear{
+  border-radius: 0px 14px 14px 0px;
+  height:45px;
+  background: whitesmoke;
+  border:0;
+  width: 40px;
+}
+.nav .clear:hover{
+  cursor:pointer;
+}
+.search{
+  border-radius: 14px 0px 0px 14px;
+  height:45px;
+  background: #fff;
+  width: 40px;
+ border:0;
+}
+.search i{
+  color: black;
+}
+.nav input[type=text]:focus{
+  outline: 0;
+}
+.products a{
+  text-decoration:none;
+  font-family: 'Sofia';
+  font-weight: bold;
+  font-size:1.5rem;
+  	background: linear-gradient(90.02deg, #ef3550 0.02%,#f48fb1 27.09%,  #7e57c2 51.04%, #2196f3 76.56%, #26c6da 87.99%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  transition: 0.5s;
+}
+ .products a:active{
+  transform: scale(90%);
+}
+.products{
+  background-color: #ffffff;
+   border-top: 1px solid black;
+}
+.pro-nav {
+  	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: auto;
+	margin-right: auto;
+  border-bottom: 4px;
+}
+.topnav{
+  display:flex;
+}
+.nav .topnav input{
+  height: 43px;
+  width: 550px;
+  border:0;
+  font-size: 17px;
+}
+.nav .topnav button:hover{
+  cursor: pointer;
+}
+img{
+  -webkit-user-drag: none;
+  user-select: none;
+}
+div[class$='product-name'] h1{
+    text-decoration:none;
+  font-family: 'Main';
+  text-align: center;
+  font-weight: bold;
+  font-size:3rem;
+  	background: linear-gradient(90.02deg,  #7e57c2 51.04%, #2196f3 76.56%, #26c6da 87.99%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  padding-top: 2.5rem;
+  
+  
+}
+a{
+  user-select: none;
+}
+[class$='ph1']{
+  	background: linear-gradient(90.02deg, #2196f3 76.56%, #26c6da 87.99%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  
+}
